@@ -32,9 +32,8 @@ public class ArrayObjects
         list [1] = s2;
         list [2] = s3;
         
-        for(int i = 0; i < list.length; i++)
-        {
-            System.out.println(list[i].getName() + " " + list[i].getAge());
-        }//ends loop
+        for (Student list1 : list) {
+            System.out.println(list1.getName() + " is " + list1.getAge() + " years old");
+        } //ends loop
     }//ends main
 }//ends class
