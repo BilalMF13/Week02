@@ -35,5 +35,7 @@ public class ArrayObjects
         for (Student list1 : list) {
             System.out.println(list1.getName() + " is " + list1.getAge() + " years old");
         } //ends loop
+        
+        System.out.println("Bob Ross is my dad. Have a nice day. :)");
     }//ends main
 }//ends class
